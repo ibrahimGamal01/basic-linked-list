@@ -4,12 +4,12 @@ The NumberList class is designed to create a linked list of double precision val
 
 # Functions
 
-void appendNode(double val): Adds a new node to the end of the list with the given value.
-void displayList() const: Prints the values of all nodes in the list.
-void insertNode(int pos, double val): Inserts a new node with the given value at the given position.
-ListNode \*findNode(double val): Searches the list for a node with the given value and returns a pointer to that node.
-int deleteNode(double val): Deletes the first node in the list with the given value and returns 1 if a node was deleted,otherwise 0.
-void deleteList(): Deletes all nodes in the list.
+* `void appendNode(double val)`: Adds a new node to the end of the list with the given value.
+* `void displayList() const`: Prints the values of all nodes in the list.
+* `void insertNode(int pos, double val)`: Inserts a new node with the given value at the given position.
+* `ListNode \*findNode(double val)`: Searches the list for a node with the given value and returns a pointer to that node.
+* `int deleteNode(double val)`: Deletes the first node in the list with the given value and returns 1 if a node was deleted,otherwise 0.
+* `void deleteList()`: Deletes all nodes in the list.
 
 # Private Members
 
